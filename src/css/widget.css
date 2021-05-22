@@ -1,0 +1,81 @@
+.widget {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 10px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.widget__header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.widget__title {
+  margin-bottom: 10px;
+}
+
+.widget__content {
+  width: 100%;
+  height: 100%;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.widget__footer {
+  position: relative;
+  width: 100%;
+}
+
+.widget__controls {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.button__unsubscribe,
+.button__subscribe {
+  box-sizing: border-box;
+  text-align: center;
+  width: 100px;
+  margin-left: auto;
+  border-radius: 5px;
+  border: 1px solid #c9cacc;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.button__unsubscribe {
+  border-color: #f6c5dc;
+  background-color: #f6c5dc;
+}
+
+.button__unsubscribe:hover {
+  border-color: #f5a3c6;
+  background-color: #f5a3c6;
+}
+
+
+.button__subscribe {
+  margin-left: 10px;
+  border-color: #58bf97;
+  background-color: #58bf97;
+}
+
+.button__subscribe:hover {
+  border-color: #167764;
+  background-color: #167764;
+}
+
+
