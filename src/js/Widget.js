@@ -36,7 +36,11 @@ export default class Widget {
               return filteredResponse;
             }),
             timestamp(),
-            catchError(() => of([]))
+            catchError(() =>
+              of({
+                value: [],
+              })
+            )
           )
         )
       )
